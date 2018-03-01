@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="keyboardEvents.css" type="text/css"/>
+<head>
+<script>
+
+var boxtop=200;
+var boxleft=200;
+
+'use strict';
+
+document.addEventListener('keydown', (event) => {
+  const keyName = event.key;
+  console.log(boxtop);
+
+if (keyName=="ArrowDown"){
+  boxtop += 10;
+}
+
+if (keyName=="ArrowUp"){
+  boxtop -= 10;
+}
+document.getElementById("box").style.top = boxtop + "px";
+
+if (keyName=="ArrowLeft"){
+  boxleft -= 10;
+}
+
+if (keyName=="ArrowRight"){
+  boxleft += 10;
+}
+document.getElementById("box").style.left = boxleft + "px";
+  
+
+
+
+  // alert('keydown event\n\n' + 'key: ' + keyName);
+  console.log('keydown event\n\n' + 'key: ' + keyName);
+  
+});
+
+
+
+
+</script>
+</head>
+<body>
+  <div id="box">
+
+  </div>
+</body>
+</html>
