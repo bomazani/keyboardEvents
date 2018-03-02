@@ -1,5 +1,15 @@
 
-#box {
-    width: 100px; height: 100px; position: absolute; background: rgb(247, 100, 2); left: 200px; top: 200px;
-    background-image: url("plateOfFilets.jpg")
+#leftEye {
+    width: 50px; height: 50px; position: absolute; background: rgb(2, 2, 2); left: 300px; top: 300px;
+    border-radius: 25px; z-index:1;
 }
+
+#rightEye { 
+    width: 50px; height: 50px; position: absolute; background: rgb(2, 2, 2); left: 835px; top: 300px;
+    border-radius: 25px; z-index:1;
+} 
+
+#bob {
+    background-image: url(bugEyesErased.png);
+    z-index: -1;
+} 

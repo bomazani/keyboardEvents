@@ -4,45 +4,18 @@
 <html>
   <link rel="stylesheet" href="keyboardEvents.css" type="text/css"/>
 <head>
-<script>
 
-var boxtop=200;
-var boxleft=200;
-
-'use strict';
-
-document.addEventListener('keydown', (event) => {
-  const keyName = event.key;
-  console.log(boxtop);
-
-if (keyName=="ArrowDown"){
-  boxtop += 10;
-}
-
-if (keyName=="ArrowUp"){
-  boxtop -= 10;
-}
-document.getElementById("box").style.top = boxtop + "px";
-
-if (keyName=="ArrowLeft"){
-  boxleft -= 10;
-}
-
-if (keyName=="ArrowRight"){
-  boxleft += 10;
-}
-document.getElementById("box").style.left = boxleft + "px";
-  
-});
-
-
-
-
-</script>
 </head>
+<body id="bob">
 <body>
-  <div id="box">
-
+<!-- <body id="bob"> -->
+  <div>
+      <div id="leftEye"></div>
+      <div id="rightEye"></div>
+      <div id="bob"></div>
   </div>
+  <!-- <div id="bob"></div> -->
+  
+ <script type="text/javascript" src=keyboardEvents.js></script> 
 </body>
 </html>
