@@ -1,7 +1,7 @@
 
 
-var leftEyeTop=280;
-var rightEyeTop=270;
+var leftEyeTop=290;
+var rightEyeTop=232;
 var leftEyeLeft=300;
 var rightEyeLeft=835;
 
@@ -17,7 +17,9 @@ document.addEventListener('keydown', (event) => {
   console.log(leftEyeLeft);
   console.log(rightEyeTop);
   console.log(rightEyeLeft);
-document.getElementById("bob").style.zIndex = "1";
+// document.getElementById("bob").style.z-Index = "2";
+// document.getElementById("leftEye").style.z-Index = "1";
+// document.getElementById("rightEye").style.z-Index = "1";
 
 
 <!-- Left Eye movement -->
