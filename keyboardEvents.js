@@ -1,9 +1,9 @@
 
 
-var leftEyeTop=290;
+var leftEyeTop=296;
 var rightEyeTop=232;
 var leftEyeLeft=300;
-var rightEyeLeft=835;
+var rightEyeLeft=830;
 
 
 console.log(leftEyeTop);

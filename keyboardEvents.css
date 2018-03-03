@@ -5,7 +5,7 @@
     position: relative; 
     background: rgb(2, 2, 2); 
     left: 300px; 
-    top: 300px;
+    top: 296px;
     border-radius: 25px; 
     z-index:1;
 }
@@ -16,8 +16,8 @@
     position: relative; 
     background: rgb(2, 2, 2);
     left: 835px; 
-    top: 250px;
-    /* background-image: url('crazyBobMedium.png'); */
+    top: 232px;
+    /* background-image: url('greyEyes.png'); */
     border-radius: 25px; 
     z-index:2;
 } 
