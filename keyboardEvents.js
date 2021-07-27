@@ -13,16 +13,16 @@ console.log(rightEyeLeft);
 
 document.addEventListener('keydown', (event) => {
   const keyName = event.key;
-  console.log(leftEyeTop);
-  console.log(leftEyeLeft);
-  console.log(rightEyeTop);
-  console.log(rightEyeLeft);
+  // console.log(leftEyeTop);
+  // console.log(leftEyeLeft);
+  // console.log(rightEyeTop);
+  // console.log(rightEyeLeft);
 // document.getElementById("bob").style.z-Index = "2";
 // document.getElementById("leftEye").style.z-Index = "1";
 // document.getElementById("rightEye").style.z-Index = "1";
 
 
-<!-- Left Eye movement -->
+// Left Eye movement
 
 if (keyName=="ArrowDown"){
   leftEyeTop += 10;
@@ -42,7 +42,7 @@ if (keyName=="ArrowRight"){
 }
 document.getElementById("leftEye").style.left = leftEyeLeft + "px";
 
-<!-- Right Eye movement -->
+// Right Eye movement
 if (keyName=="ArrowDown"){
   rightEyeTop += 10;
 }

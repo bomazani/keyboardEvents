@@ -7,7 +7,7 @@
     left: 300px; 
     top: 296px;
     border-radius: 25px; 
-    z-index:1;
+    z-index: 1;
 }
 
 #rightEye { 
@@ -28,11 +28,12 @@
     position: absolute; 
     z-index: 100;
     height: 100%;
-    width: 100%;
-    
-  
+    width: 100%; 
 } 
 
 body {
-    
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    min-width: 100vw; 
 }
